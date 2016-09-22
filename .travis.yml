@@ -29,6 +29,8 @@ install:
       "BAZEL")
         sudo apt-get install bazel ;;
       "MVN")
+        mvn --version ;
+        java -version ;
         mkdir protoc ;
         cd protoc ;
         curl -L -o protoc.zip https://github.com/google/protobuf/releases/download/v3.0.0/protoc-3.0.0-linux-x86_64.zip ;
