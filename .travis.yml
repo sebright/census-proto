@@ -43,5 +43,5 @@ script:
       "BAZEL")
         bazel build --show_result=100 ... ;;
       "MVN")
-        mvn package ;;
+        mvn clean package ;;
     esac
